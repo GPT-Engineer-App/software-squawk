@@ -24,11 +24,11 @@ const Index = () => {
             <VStack spacing={5}>
               <HStack spacing={3} alignItems="center">
                 <Image src="https://via.placeholder.com/150" alt="ForgedCore8" boxSize="50px" objectFit="cover" borderRadius="full" />
-                <Text fontSize="lg">ForgedCore8 - Python Specialist</Text>
+                <Text fontSize="lg">ForgedCore8 - Python & Node.js Expert</Text>
               </HStack>
               <HStack spacing={3} alignItems="center">
                 <Image src="https://via.placeholder.com/150" alt="DJ Stomp" boxSize="50px" objectFit="cover" borderRadius="full" />
-                <Text fontSize="lg">DJ Stomp - Node.js Connoisseur</Text>
+                <Text fontSize="lg">DJ Stomp - Python & Node.js Expert</Text>
               </HStack>
             </VStack>
             <HStack spacing={5}>
