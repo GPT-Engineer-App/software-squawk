@@ -15,9 +15,22 @@ const Index = () => {
             <Heading as="h1" size="2xl" textAlign="center">
               SquawkSquad Software Solutions
             </Heading>
-            <Text fontSize="xl" textAlign="center" px={4}>
-              Specializing in Windows applications for all your business needs.
+            <Text fontSize="xl" textAlign="center" px={4} mb={10}>
+              Specializing in Python and Node.js applications for all your business needs, with expertise in other technologies as well.
             </Text>
+            <Heading as="h2" size="lg" textAlign="center" mb={4}>
+              Our Team
+            </Heading>
+            <VStack spacing={5}>
+              <HStack spacing={3} alignItems="center">
+                <Image src="https://via.placeholder.com/150" alt="ForgedCore8" boxSize="50px" objectFit="cover" borderRadius="full" />
+                <Text fontSize="lg">ForgedCore8 - Python Specialist</Text>
+              </HStack>
+              <HStack spacing={3} alignItems="center">
+                <Image src="https://via.placeholder.com/150" alt="DJ Stomp" boxSize="50px" objectFit="cover" borderRadius="full" />
+                <Text fontSize="lg">DJ Stomp - Node.js Connoisseur</Text>
+              </HStack>
+            </VStack>
             <HStack spacing={5}>
               <Button leftIcon={<FaWindows />} colorScheme="blackAlpha">
                 Our Products
